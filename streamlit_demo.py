@@ -8,7 +8,7 @@ Created on Sat Aug 16 15:46:05 2025
 import numpy as np
 import pickle
 import streamlit as st
-loaded_model=pickle.load(open("C:/Users/sait6/Downloads\streamlit_demo/trained_model.sav",'rb'))
+loaded_model=pickle.load(open("trained_model.sav",'rb'))
 
 #creating a function for prediction
 def cancer_data(input):
@@ -38,4 +38,5 @@ def main():
 if __name__ == '__main__': 
     main()
     
+
     
