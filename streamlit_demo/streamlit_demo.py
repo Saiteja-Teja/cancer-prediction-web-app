@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-with open("trained_model.sav", "rb") as f:
+with open("streamlit_demo/trained_model.sav", "rb") as f:
     loaded_model = pickle.load(f)
 
 # Prediction function
@@ -38,3 +38,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
